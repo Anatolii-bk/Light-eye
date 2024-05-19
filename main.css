@@ -1,0 +1,190 @@
+@font-face {
+    font-family: Corbal;
+    src: url(Assets/fonts/CORBEL.TTF);
+}
+
+body {
+    font-family: Corbal;
+
+}
+
+.wrapper {
+    max-width: 1100px;
+}
+
+header {
+    padding: 0 80px 0 80px;
+}
+
+.title h1 {
+    font-size: 64px;
+    color: #14931F;
+    padding: 100px 150px 0 150px;
+    margin: 0 200px 0 200px;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+.title p {
+    color: #646F75;
+    font-size: 24px;
+    margin: 20px 320px 30px 320px;
+}
+
+.start {
+    border-radius: 50px;
+    background-color: #14931F;
+    padding: 10px 30px;
+    color: white;
+    border: 0;
+    cursor: pointer;
+}
+
+.start:hover {
+    background-color: #DFDBF5;
+    color: black;
+}
+
+
+.servises {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 80px 50px 80px;
+
+}
+
+.servises h2 {
+    color: #14931F;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.blocks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}
+
+.blocks div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 23%;
+    margin: 20px;
+    background-color: #DFDBF5;
+    padding: 20px 25px 20px 25px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.blocks div:hover {
+    background-color: #14931F;
+    color: white;
+}
+
+.prices {
+    background-color: #DFDBF5;
+    display: flex;
+    flex-direction: column;
+    padding: 0 80px 50px 80px;
+}
+
+.prices h2 {
+    color: #14931F;
+    margin: 50px 0;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 23%;
+    margin: 20px;
+    background-color: white;
+    padding: 20px 20px 20px 20px;
+    border-radius: 20px;
+}
+
+.card img {
+    width: 20px;
+    margin: 0 5px 0 0;
+}
+
+.card h3 {
+    color: #14931F;
+}
+
+.green {
+    background-color: #14931F;
+    color: #DFDBF5;
+}
+
+.green h3 {
+    color: #DFDBF5;
+}
+
+.card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.card li {
+    margin: 0 0 20px 0;
+}
+
+.buy {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buy p {
+    font-size: 48px;
+    color: #646F75;
+    margin: 0 ;
+}
+
+.buy button {
+    font-size: 24px;
+    border-radius: 50px;
+    background-color: white;
+    padding: 5px 20px;
+    color: #646F75;
+    border: 0;
+    cursor: pointer;
+    border: 1px solid black;
+    margin: 0 0 0 20px;
+}
+
+.green p {
+color: white;
+}
+.buy button:hover{
+    background-color: #14931F;
+    color: white;
+}
+.green button:hover{
+    background-color: #DFDBF5;
+    color: black;
+}
+footer {
+    background-color: #14931F;
+    color: #DFDBF5;
+    display: flex;
+    justify-content: center;
+}
